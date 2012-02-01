@@ -1,10 +1,12 @@
-= TwitterClone1
+= TwitterClone2
 
 == Minimum Requirements
 * Maglev must be installed
 * If you are using RVM, remember to <tt>rvm use maglev</tt>
 
 == Running it
+
+*** under construction
 
 1. Run
    <tt>ruby initialise_repo.rb</tt>
