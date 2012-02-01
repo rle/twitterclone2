@@ -6,8 +6,6 @@
 
 == Running it
 
-*** under construction
-
 1. Run
    <tt>ruby initialise_repo.rb</tt>
    This creates a persistent Person class and sets up the initial empty array
@@ -20,11 +18,9 @@
    <tt>ruby show_persons.rb</tt>
    The following must be displayed
 
-   <tt>@dhh --> [2] obie unclebob</tt>
-
-   <tt>@obie --> [1] unclebob</tt>
-
-   <tt>@unclebob --> [2] noob1 noob2</tt>
+   <tt>@dhh tweeted 0 times, follows 0 persons and is followed 2 times , following: { } followed by: { obie unclebob }</tt>
+   <tt>@obie tweeted 0 times, follows 1 persons and is followed 1 times , following: { dhh } followed by: { unclebob }</tt>
+   <tt>@unclebob tweeted 0 times, follows 2 persons and is followed 2 times , following: { dhh obie } followed by: { noob1 noob2 }</tt>
 
 == Notes
 
